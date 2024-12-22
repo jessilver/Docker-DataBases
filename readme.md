@@ -26,11 +26,9 @@ Follow these instructions to set up and run the database connections using Docke
 
 ### Usage
 
-- To connect to the database, use the following credentials:
-    - Host: `localhost`
-    - Port: `your-port`
-    - Username: `your-username`
-    - Password: `your-password`
+To connect to the database, use the following credentials:
+- ### [Postgres](https://github.com/jessilver/Docker-DataBases/blob/main/Postgres/readme.md)
+
 
 ### Contributing
 
