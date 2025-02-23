@@ -28,6 +28,7 @@ Follow these instructions to set up and run the database connections using Docke
 
 To connect to the database, use the following credentials:
 - ### [Postgres](https://github.com/jessilver/Docker-DataBases/blob/main/Postgres/readme.md)
+- ### [MySQL](https://github.com/jessilver/Docker-DataBases/blob/main/MySQL/readme.md)
 
 
 ### Contributing
