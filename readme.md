@@ -12,22 +12,35 @@ Follow these instructions to set up and run the database connections using Docke
 ### Installation
 
 1. Clone the repository:
-    ```sh
-    git clone 
+    ```
+    git clone https://github.com/jessilver/Docker-DataBases.git
     ```
 2. Navigate to the project directory:
-    ```sh
+    ```
     cd [the database that you want]
     ```
 3. Build and run the Docker containers:
-    ```sh
+    ```
     docker-compose up --build
+    ```
+4. Stop the Docker containers:
+    ```
+    docker-compose down
+    ```
+5. Start the Docker containers:
+    ```
+    docker-compose start [service_name]
+    ```
+6. Remove the Docker containers:
+    ```
+    docker-compose rm [service_name]
     ```
 
 ### Usage
 
 To connect to the database, use the following credentials:
 - ### [Postgres](https://github.com/jessilver/Docker-DataBases/blob/main/Postgres/readme.md)
+- ### [MySQL](https://github.com/jessilver/Docker-DataBases/blob/main/MySQL/readme.md)
 
 
 ### Contributing
