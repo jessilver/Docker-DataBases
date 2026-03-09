@@ -1,15 +1,16 @@
-version: '3.8'
-
 services:
   postgres:
-    image: postgres:latest
+    image: postgres:18
+    container_name: meu-postgres-db
+    restart: always
     environment:
       POSTGRES_USER: mainuser
-      POSTGRES_PASSWORD: 123456789
+      POSTGRES_PASSWORD: "123456789"
+      POSTGRES_DB: meu_banco
     ports:
       - "5432:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql
 
 volumes:
   postgres_data:
