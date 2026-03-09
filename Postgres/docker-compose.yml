@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:18  # Ou latest, mas especificar a versão é melhor
+    image: postgres:18
     container_name: meu-postgres-db
     restart: always
     environment:
